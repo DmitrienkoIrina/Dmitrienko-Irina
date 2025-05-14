@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: 300; 
+    font-display: swap;
+    src: url('../fonts/Helvetica-Bold.woff2');
+}
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: 500; 
+    font-display: swap;
+    src: url('../fonts/Helvetica.woff2');
+}
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: 600; 
+    font-display: swap;
+    src: url('../fonts/HelveticaNeueCyr.woff2');
+}
