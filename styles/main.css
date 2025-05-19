@@ -1,0 +1,16 @@
+.learn__title {
+    display: flex;
+        color: #038703;
+        font-size: 122px;
+        line-height: 240px;
+        font-weight: 300;
+        line-height: 1;
+}
+
+.tickets__item {
+    display: block;
+    color: black;
+    font-size: 27px;
+    line-height: 64px;
+    font-weight: 900;
+}
