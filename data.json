@@ -1,0 +1,20 @@
+[
+    {
+        "hardLevel": "– базовый уровень –",
+        "quantityLevel": "~70 баллов на ЕГЭ",
+        "descriptionLevel": "3000₽ за занятие",
+        "levelStart": "купить"
+    },
+    {
+        "hardLevel": "– вступительные тесты по обществознанию –",
+        "quantityLevel": "~85 баллов на ЕГЭ",
+        "descriptionLevel": "6000₽ за занятие",
+        "levelStart": "купить"
+    },
+    {
+        "hardLevel": "– вступительные тесты по математике –",
+        "quantityLevel": "~100 баллов на ЕГЭ",
+        "descriptionLevel": "9000₽ за занятие",
+        "levelStart": "купить"
+    }
+]

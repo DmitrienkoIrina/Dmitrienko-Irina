@@ -1,0 +1,42 @@
+.tests{
+    background-color: rgb(255, 215, 106);
+    color: black;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    font-size: 20px;
+}
+.tests__title{
+    padding-left: 10px;
+}
+.tests__list {
+    justify-content: start;
+    margin-top: 60px;
+    display: flex;
+    column-gap: 30px;
+    margin-right: 50px;
+}
+.level {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(20, 16, 36, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 360px;
+    height: 600px;
+    transition: transform 0.3s ease-out;
+}
+.Hard__level {
+    font-weight: 600;
+    font-size: 20px;
+}
+.quantity__level {
+    margin-top: 83px;
+    font-weight: 600;
+    font-size: 30px;
+}
+

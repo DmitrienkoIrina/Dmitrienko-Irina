@@ -1,0 +1,24 @@
+.certificate{
+    justify-content: left;
+}
+.swiper {
+    width: 1000px;
+    height: 500px;
+  }
+.swiper-button-prev{
+    left: 30px;
+}
+.swiper-button-next{
+    right: 30px;
+}
+.swiper-scrollbar{
+    right: 30px;
+}
+.swiper-slide{
+    right: 10px;
+}
+.slide{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}

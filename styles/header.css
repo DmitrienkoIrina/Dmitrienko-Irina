@@ -1,58 +1,68 @@
-.header {
-    font-size: 30px;
-    font-weight: 900;
-    background-color: white;
-    color: black;
-   display: flex;
-   gap: 30px;
-   justify-content: space-between;
-   align-items: center;
-}
-
-
-.header__img {
-    display: block;
-    max: width 251px;
-    height: 75px;
-}
-    
-.menu__list {
-    font-size: 30px;
-    font-weight: 900;
+.header{
     display: flex;
-    gap: 15px;
-    color: black;
- padding: 10px;
- list-style: none;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    background-color: orange;
+    color: white;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
 }
-
-.menu__list {
-    font-size: 30px;
-    font-weight: 900;
+.header__menu{
     display: flex;
-    gap: 15px;
-    color: black;
-    padding: 10px;
+    justify-content: center;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
     list-style: none;
     text-decoration: none;
 }
-
-.header__btn {
-    font-size:21px;
-    font-weight:600;
-    width: 362px;
-    height: 52px;
-    background-color: purple;
-    color: white;
-    border: 1px solid purple;
-    border-radius: 5px;
-    padding:10px 15px;
-    cursor: pointer;
-}
-
-.header__tel {
-    display: flex;
-    color:#000;
+.header__link{
+    color: rgb(13, 0, 83);
+    margin: 15px;
     text-decoration: none;
+    transition: 0.5ms all ease-out;
 }
 
+.header__link:hover{
+    background-color: aqua;
+}
+.box {
+    position: static;
+    top: 50px;
+    left: 100px;
+}
+.header__link:focus, .hover{
+    color: rgb( 85, 26, 139)
+}
+.translate{
+    justify-content: right;
+    width: 50px;
+    height: 30px;
+    border: none;
+    background: transparent;
+}
+.header__button{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+
+    background-color: rgb(255, 255, 255);
+    color: orange;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 15px;
+
+    cursor: pointer;
+
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+.header__button:hover, .focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 0, 83);
+}

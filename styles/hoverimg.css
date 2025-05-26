@@ -1,0 +1,25 @@
+.info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.info__logo__Img {
+    margin: 10px;
+    width: 50px;
+    justify-content: center;
+    position: relative;
+}
+.info__logo {
+    margin-left: 100px;
+    margin-top: 15px;
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    width: 250px;
+    background-color: #f79d9d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}

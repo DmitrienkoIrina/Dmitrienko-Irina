@@ -1,16 +1,61 @@
-.learn__title {
-    display: flex;
-        color: #038703;
-        font-size: 122px;
-        line-height: 240px;
-        font-weight: 300;
-        line-height: 1;
-}
-
-.tickets__item {
-    display: block;
+.main{
+    background-color: rgb(255, 215, 106);
     color: black;
-    font-size: 27px;
-    line-height: 64px;
-    font-weight: 900;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    font-size: 20px;
+}
+.achievements{
+    background-color: rgb(255, 215, 106);
+}
+.achievements__text{
+    width: 100%;
+    justify-content: left;
+}
+.desc{
+    width: 100%;
+}
+.desc__list{
+    display: grid;
+    justify-content: left;
+    gap: 15px;
+    list-style: none;
+    width: 1000px;
+    overflow: hidden;
+    text-align: left;
+}
+.pass{
+    width: 100%;
+}
+.pass__text{
+    width: 100%;
+    justify-content: left;
+}
+.choice__slider{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+}
+.choice__list {
+    width: 1350px;
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    overflow: hidden;
+    align-items: end;
+}
+.choice__img {
+    width: 400px;
+    height: 200px;
+
+}
+.choice__item {
+    width: 360px;
+    transition: 0.3s ease; 
+   }
+.choice__button{
+    padding:150px 20px;
 }
