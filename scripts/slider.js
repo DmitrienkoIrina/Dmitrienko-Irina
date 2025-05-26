@@ -35,7 +35,7 @@ function updateSlider() {
 const EraContainer = document.querySelector(".choice");
 
 if (EraContainer) {
-    console.log('эра существует');
+    console.log('преимущества существуют');
     const dataTitleEra = [
         "80",
         "20+",
